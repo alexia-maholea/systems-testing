@@ -76,6 +76,7 @@ class Tree:
 
     def _printPreorderTree(self, node):
         """Pre-order traversal: Node -> Left -> Right"""
+        "test"
         if node is not None:
             print(str(node.data) + ' ')
             self._printPreorderTree(node.left)
